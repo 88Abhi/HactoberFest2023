@@ -2,68 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
-        
-    <link rel="stylesheet" type="text/css" href="style.css">  
+    <title>Cube Animation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container">
 
-        <form action="" class="form" id="form">
-            <div class="form-control">
-                <label>First Name</label>
-                <input type="text"  id="username" placeholder="Enter First Name" autocomplete="off" required>
+    <div class="animation01">
+        <div class="rhombus_small">
+            <div class="rhombus">
+                <div class="border_box">
+                    <span class="line line01"></span>
+                    <span class="line line02"></span>
+                    <span class="line line03"></span>
+                    <span class="line line04"></span>
+                    <span class="circle circle01"></span>
+                    <span class="circle circle02"></span>
+                    <span class="circle circle03"></span>
+                    <span class="circle circle04"></span>
+                    <span class="animation_line animation_line01"></span>
+                    <span class="animation_line_wrapper animation_line02_wrapper"><span class="animation_line animation_line02"></span></span>
+                    <span class="animation_line animation_line03"></span>
+                    <span class="animation_line_wrapper animation_line04_wrapper"><span class="animation_line animation_line04"></span></span>
+                    <span class="animation_line animation_line05"></span>
+                    <span class="animation_line_wrapper animation_line06_wrapper"><span class="animation_line animation_line06"></span></span>
+                    <span class="animation_line animation_line07"></span>
+                    <span class="animation_line_wrapper animation_line08_wrapper"><span class="animation_line animation_line08"></span></span>
+                </div>
+                <div class="wave">
+                    <div class="wave_wrapper"><div class="wave_box"></div></div>
+                </div>
             </div>
-
-            <div class="form-control">
-                <label>Last Name</label>
-                <input type="text" id="lastname" placeholder="Enter Last Name" autocomplete="off" required >
-                
-            </div>
-
-            <div class="form-control">
-                <label>Email</label>
-                <input type="text"  id="email" placeholder="example@gmail.com" autocomplete="off" required>
-                
-            </div>
-
-            <div class="form-control">
-                <label>Password</label>
-                <input type="password"  id="password" placeholder="Enter Your Password" autocomplete="off">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-
-            <div class="form-control">
-                <label>Confirm Password</label>
-                <input type="password"  id="cpassword" placeholder="Confirm Password" autocomplete="off">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error Message</small>
-            </div>
-            
-            <button class="button signup__submit">
-                <span class="button__text">Sign Up</span>
-            </button><br>
-            <div class="social-media">
-                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-github"></i></a>
-                
-            </div>
-        </form>
+        </div>
     </div>
-
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <div class="animation02">
+        <div class="rhombus_box">
+            <span class="rhombus_item_wrapper rhombus_item01_wrapper"><span class="rhombus_item"></span></span>
+            <span class="rhombus_item_wrapper rhombus_item02_wrapper"><span class="rhombus_item"></span></span>
+        </div>
+        <div class="double_content">
+            <div class="double_wrapper02 dotted02"><div class="dotted_hide"><div class="double_wrapper01 dotted01"><span class="dotted_right"></span></div></div></div>
+            <div class="double_wrapper02 white02"><div class="double_wrapper01 white01"></div></div>
+            <div class="double_wrapper02 gray02"><div class="double_wrapper01 gray01"></div></div>
+            <div class="double_wrapper02 orange02"><div class="double_wrapper01 orange01"></div></div>
+        </div>
+        <div class="name">
+            <p>Abhishek Jat</p>
+            <span class="name_circle01"></span>
+            <span class="name_circle02"></span>
+        </div>
+    </div>
     
-    <script src="script.js"></script>
 </body>
 </html>
